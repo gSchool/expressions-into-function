@@ -32,3 +32,11 @@ var string = "My name is " + name;
 string += ", and my height is " + height;
 string += ", and my favorite color is " + favoriteColor;
 console.log(string);
+
+function personalIntroduction(name, height, favoriteColor){
+  console.log("My name is " + name + ", and my height is " + height + ", and my favorite color is " + favoriteColor);
+}
+personalIntroduction('Bob', 72, 'red');
+personalIntroduction('Samantha', 65, 'orange');
+personalIntroduction('Christopher', 69, 'green');
+personalIntroduction('Namera', 63, 'blue');
